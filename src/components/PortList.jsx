@@ -76,6 +76,8 @@ const PortList = ({ title, tech, details, images }) => {
               <img
                 src={images[selectedIndex]}
                 alt="preview"
+                loading="eager"
+                fetchpriority="high"
                 className="max-w-full max-h-[80vh] object-contain mb-4"
                 onClick={(e) => e.stopPropagation()}
               />
