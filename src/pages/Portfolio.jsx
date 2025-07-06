@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import Menu from "../components/menu";
+import Menu from "../components/Menu";
 import PortList from "../components/PortList";
 import { FaArrowUp } from "react-icons/fa";
 

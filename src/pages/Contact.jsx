@@ -1,4 +1,4 @@
-import Menu from "../components/menu";
+import Menu from "../components/Menu";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const contact = () => {
