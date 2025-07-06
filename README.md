@@ -1,12 +1,23 @@
-# React + Vite
+# Personal Portfolio – React + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**.  
+It showcases selected projects, technical skills, and ways to contact me.
 
-Currently, two official plugins are available:
+> 🔗 Live Site: [http://webbab.space](http://webbab.space) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/) – for blazing fast development and builds
+- [Tailwind CSS](https://tailwindcss.com/) – utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) – animations
+- [React Router](https://reactrouter.com/) – for client-side routing
+- [Render](https://render.com/) – for static site deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼 Features
+
+- Responsive layout for all devices
+- Smooth animations using Framer Motion
+- Modal image gallery
+- Organized project showcase (tech + details)
+- Clean and minimal UI
