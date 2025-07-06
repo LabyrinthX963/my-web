@@ -2,8 +2,8 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import About from "./pages/About";
-import Portfolio from "./pages/Portfolio_temp";
-import Contact from "./pages/Contact_temp";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 //
 function App() {
   const location = useLocation();
