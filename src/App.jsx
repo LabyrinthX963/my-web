@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio_temp";
 import Contact from "./pages/Contact_temp";
-
+//
 function App() {
   const location = useLocation();
   const rand = (min, max) => Math.floor(Math.random() * (max - min) + min);
