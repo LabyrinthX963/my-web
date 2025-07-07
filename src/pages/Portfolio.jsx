@@ -30,10 +30,10 @@ const portfolio = () => {
     "A full-stack system used daily by nearly 1,000 employees as their gateway to internal web apps. The frontend communicates with the backend via REST API. Key features include user profiles, multiple color themes to keep things fresh, and a customizable favorite menu that helps users quickly access the apps they actually use. Fully secured with Spring Security.";
   const images_2 = [p2_img1, p2_img2, p2_img3];
 
-  const p3_title = "Hotel Room Inspection App";
+  const p3_title = "Hotel Room Inspection Web App";
   const p3_tech = "Thymeleaf,TailwindCSS,Spring Boot,SQL Server";
   const p3_details =
-    "A full-stack hotel room inspection app built for housekeeper supervisors. Designed to be used on tablets with responsive UI, GPS tracking, and detailed room audit logs. Makes room checks more organized and searchable. Fully secured using Spring Security.";
+    "A full-stack hotel room inspection web app built for housekeeper supervisors. Designed to be used on tablets with responsive UI, GPS tracking, and detailed room audit logs. Makes room checks more organized and searchable. Fully secured using Spring Security.";
   const images_3 = [p3_img1, p3_img2, p3_img3, p3_img4];
 
   const containerRef = useRef(null);
