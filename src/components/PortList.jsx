@@ -32,7 +32,7 @@ const PortList = ({ title, tech, details, images }) => {
   return (
     <div className="rounded-2xl bg-zinc-300/15 backdrop-blur-lg mx-2 lg:mx-0 lg:w-300 p-4 hover:bg-zinc-100/15 transition-all duration-300">
       <div className="text-white text-2xl font-bold mb-2">{title}</div>
-      <div className="grid grid-cols-2 space-x-1 space-y-1 mb-4 w-max mx-auto lg:flex lg:gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 space-x-1 space-y-1 mb-4 w-max mx-auto lg:flex lg:gap-6">
         {images &&
           images.map((imgSrc, index) => (
             <img
@@ -86,7 +86,7 @@ const PortList = ({ title, tech, details, images }) => {
               <div className="flex gap-6 lg:hidden z-50">
                 <button
                   disabled={selectedIndex <= 0}
-                  className="rounded-2xl bg-slate-600 px-6 py-3 text-2xl text-white disabled:opacity-30"
+                  className=" rounded-2xl bg-slate-600 px-6 py-3 text-2xl text-white disabled:opacity-30"
                   onClick={(e) => {
                     e.stopPropagation();
                     prevImage();
@@ -96,7 +96,7 @@ const PortList = ({ title, tech, details, images }) => {
                 </button>
                 <button
                   disabled={selectedIndex >= images.length - 1}
-                  className="rounded-2xl bg-slate-600 px-6 py-3 text-2xl text-white disabled:opacity-30"
+                  className=" rounded-2xl bg-slate-600 px-6 py-3 text-2xl text-white disabled:opacity-30"
                   onClick={(e) => {
                     e.stopPropagation();
                     nextImage();

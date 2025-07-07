@@ -5,7 +5,7 @@ const contact = () => {
   return (
     <div>
       <Menu />
-      <div className="text-zinc-200 text-3xl lg:text-4xl my-5 flex justify-center">
+      <div className="text-zinc-200 text-3xl lg:text-4xl my-5 flex justify-center text-center">
         I'd love to hear from you 🙂
       </div>
       <div className="text-zinc-200 text-lg flex flex-col items-center space-y-4 px-4 text-center max-w-2xl mx-auto">
