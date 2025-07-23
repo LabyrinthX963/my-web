@@ -26,7 +26,7 @@ const about = () => {
             contribute, and collaborate with great teams.
           </p>
 
-          <div className="my-6 lg:my-2 text-zinc-200 text-lg space-y-1 text-center">
+          <div className="my-6 lg:my-2 xl:my-20 2xl:my-35 text-zinc-200 text-lg space-y-1 text-center">
             <p>
               <span className="font-bold ">Education:</span> Bachelor of Science
               (Computer Science)
