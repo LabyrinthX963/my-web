@@ -15,7 +15,7 @@ const about = () => {
   const scrollToTop = () => {
     containerRef.current?.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: "smooth"
     });
   };
   useEffect(() => {
@@ -76,6 +76,7 @@ const about = () => {
           <div>Database : SQL Server, MySQL, PostgreSQL, MongoDB</div>
           <div>Multiplatform : Flutter</div>
           <div>Version Control : Git, GitHub</div>
+          <div>Infrastructure Tools: Kafka, Docker</div>
         </div>
       </div>
       {showButton && (
